@@ -1,0 +1,19 @@
+<Doctype html >
+    <html>
+        <head>
+        <title> exercice 2 </title>
+        </head>
+        <script>
+            function calcul (){
+                op = eval (document.getElementById (op).value);
+                document.getElementById('num1').value=op;
+                event.preventDefault();
+            }
+        </script>
+    <body>
+        <form onsubmit"calcul()">
+            <input id="op">
+            <input type="submit" value "=">
+            <input id="Result">
+        </form>
+    </html>
